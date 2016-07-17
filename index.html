@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Top 10 Image Generator</title>
+
+	<meta itemprop="name" content="Top 10 Image Generator">
+	<meta itemprop="description" content="Generate images for your Top 10 easily with an inline edit tool.">
+	<meta itemprop="image" content="http://lubien.info/generators/top10/featured.jpg" />
+	<meta property="og:title" content="Top 10 Image Generator">
+	<meta property="og:description" content="Generate images for your Top 10 easily with an inline edit tool.">
+	<meta property="og:url" content="http://lubien.info/generators/top10/">
+	<meta property="og:site_name" content="Top 10 Image Generator">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="http://lubien.info/generators/top10/featured.jpg" />
+
+	<link rel="stylesheet" type="text/css" href="css/bootflat.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/html2canvas.min.js"></script>
+	<script type="text/javascript" src="js/jquery.plugin.html2canvas.js"></script>
+	<script type="text/javascript" src="http://learningthreejs.com/data/THREEx/THREEx.screenshot.js"></script>
+</head>
+<body>
+	<div class="image" id="changeBg">
+		<div class="darkner">
+			<div class="header">
+				<h2 class="main-title" editable data-placement="left">Top 10 Generator</h2>
+				<h4 class="sub-title" editable data-placement="left">Made by: Lubien | v1.0</h4>
+			</div>
+
+			<ul class="bricks">
+				<div class="bricks-centralizer">
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>01</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>02</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>03</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>04</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>05</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>06</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>07</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>08</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>09</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+					<li>
+						<img src="img-1.jpg" editable-image>
+						<div class="brick-title"><h4 editable>Lorem ipsum dolor sit amet</h4></div>
+						<div class="brick-meta">
+							<div class="brick-rank" editable>10</div>
+							<div class="brick-value" editable>108,542</div>
+						</div>
+					</li>
+				</div>
+			</ul>
+
+			<ul class="social">
+				<li id="social-1"><i style="background-color:#eb2429" class="fa fa-google-plus"></i> <span editable>+JoãoFerreiraLubien</span></li>
+				<li id="social-2"><i style="background-color:#204385" class="fa fa-facebook"></i> <span editable>lubienwork</span></li>
+				<li id="social-3"><i style="background-color:#eb2429" class="fa fa-youtube"></i> <span editable>TomoeFeedBack</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-inverse" id="footer">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Top 10 Image Generator</a>
+	    </div>
+
+		<form class="navbar-form navbar-left" id="changeValue" style="display:none">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="New Value" id="inputChange">
+			</div>
+			<button type="submit" class="btn btn-default">Save</button>
+		</form>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#" data-toggle="modal" data-target="#settingsModal">Settings</a></li>
+	        <li><a href="#" id="saveBtn" onclick="capture();" style="display:none">Save</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="modal fade" id="settingsModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Settings</h4>
+	      </div>
+	      <div class="modal-body">
+	        <label>Background image</label>
+	        <input type="text" class="form-control" value="bg1.jpg" id="social-bg">
+
+	        <label>How many bricks?</label>
+	        <input type="number" class="form-control" value="10" min=1 max=10 id="brick-count">
+
+	        <input type="checkbox" class="brick-values" checked> Have values in bricks? &nbsp; <br>
+
+	        <div class="socialChange" social-target="#social-1">
+	        	<h4>Social 1</h4>
+	        	<input type="checkbox" class="social-use" checked> Use this? &nbsp;
+	        	<select class="social-icon">
+					<option value="fa fa-500px">500px</option>
+					<option value="fa fa-adn">adn</option>
+					<option value="fa fa-amazon">amazon</option>
+					<option value="fa fa-android">android</option>
+					<option value="fa fa-angellist">angellist</option>
+					<option value="fa fa-apple">apple</option>
+					<option value="fa fa-behance">behance</option>
+					<option value="fa fa-behance-square">behance-square</option>
+					<option value="fa fa-bitbucket">bitbucket</option>
+					<option value="fa fa-bitbucket-square">bitbucket-square</option>
+					<option value="fa fa-bitcoin">bitcoin <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-black-tie">black-tie</option>
+					<option value="fa fa-btc">btc</option>
+					<option value="fa fa-buysellads">buysellads</option>
+					<option value="fa fa-cc-amex">cc-amex</option>
+					<option value="fa fa-cc-diners-club">cc-diners-club</option>
+					<option value="fa fa-cc-discover">cc-discover</option>
+					<option value="fa fa-cc-jcb">cc-jcb</option>
+					<option value="fa fa-cc-mastercard">cc-mastercard</option>
+					<option value="fa fa-cc-paypal">cc-paypal</option>
+					<option value="fa fa-cc-stripe">cc-stripe</option>
+					<option value="fa fa-cc-visa">cc-visa</option>
+					<option value="fa fa-chrome">chrome</option>
+					<option value="fa fa-codepen">codepen</option>
+					<option value="fa fa-connectdevelop">connectdevelop</option>
+					<option value="fa fa-contao">contao</option>
+					<option value="fa fa-css3">css3</option>
+					<option value="fa fa-dashcube">dashcube</option>
+					<option value="fa fa-delicious">delicious</option>
+					<option value="fa fa-deviantart">deviantart</option>
+					<option value="fa fa-digg">digg</option>
+					<option value="fa fa-dribbble">dribbble</option>
+					<option value="fa fa-dropbox">dropbox</option>
+					<option value="fa fa-drupal">drupal</option>
+					<option value="fa fa-empire">empire</option>
+					<option value="fa fa-expeditedssl">expeditedssl</option>
+					<option value="fa fa-facebook">facebook</option>
+					<option value="fa fa-facebook-f">facebook-f <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-facebook-official">facebook-official</option>
+					<option value="fa fa-facebook-square">facebook-square</option>
+					<option value="fa fa-firefox">firefox</option>
+					<option value="fa fa-flickr">flickr</option>
+					<option value="fa fa-fonticons">fonticons</option>
+					<option value="fa fa-forumbee">forumbee</option>
+					<option value="fa fa-foursquare">foursquare</option>
+					<option value="fa fa-ge">ge <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-get-pocket">get-pocket</option>
+					<option value="fa fa-gg">gg</option>
+					<option value="fa fa-gg-circle">gg-circle</option>
+					<option value="fa fa-git">git</option>
+					<option value="fa fa-git-square">git-square</option>
+					<option value="fa fa-github">github</option>
+					<option value="fa fa-github-alt">github-alt</option>
+					<option value="fa fa-github-square">github-square</option>
+					<option value="fa fa-gittip">gittip <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-google">google</option>
+					<option value="fa fa-google-plus">google-plus</option>
+					<option value="fa fa-google-plus-square">google-plus-square</option>
+					<option value="fa fa-google-wallet">google-wallet</option>
+					<option value="fa fa-gratipay">gratipay</option>
+					<option value="fa fa-hacker-news">hacker-news</option>
+					<option value="fa fa-houzz">houzz</option>
+					<option value="fa fa-html5">html5</option>
+					<option value="fa fa-instagram">instagram</option>
+					<option value="fa fa-internet-explorer">internet-explorer</option>
+					<option value="fa fa-ioxhost">ioxhost</option>
+					<option value="fa fa-joomla">joomla</option>
+					<option value="fa fa-jsfiddle">jsfiddle</option>
+					<option value="fa fa-lastfm">lastfm</option>
+					<option value="fa fa-lastfm-square">lastfm-square</option>
+					<option value="fa fa-leanpub">leanpub</option>
+					<option value="fa fa-linkedin">linkedin</option>
+					<option value="fa fa-linkedin-square">linkedin-square</option>
+					<option value="fa fa-linux">linux</option>
+					<option value="fa fa-maxcdn">maxcdn</option>
+					<option value="fa fa-meanpath">meanpath</option>
+					<option value="fa fa-medium">medium</option>
+					<option value="fa fa-odnoklassniki">odnoklassniki</option>
+					<option value="fa fa-odnoklassniki-square">odnoklassniki-square</option>
+					<option value="fa fa-opencart">opencart</option>
+					<option value="fa fa-openid">openid</option>
+					<option value="fa fa-opera">opera</option>
+					<option value="fa fa-optin-monster">optin-monster</option>
+					<option value="fa fa-pagelines">pagelines</option>
+					<option value="fa fa-paypal">paypal</option>
+					<option value="fa fa-pied-piper">pied-piper</option>
+					<option value="fa fa-pied-piper-alt">pied-piper-alt</option>
+					<option value="fa fa-pinterest">pinterest</option>
+					<option value="fa fa-pinterest-p">pinterest-p</option>
+					<option value="fa fa-pinterest-square">pinterest-square</option>
+					<option value="fa fa-qq">qq</option>
+					<option value="fa fa-ra">ra <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-rebel">rebel</option>
+					<option value="fa fa-reddit">reddit</option>
+					<option value="fa fa-reddit-square">reddit-square</option>
+					<option value="fa fa-renren">renren</option>
+					<option value="fa fa-safari">safari</option>
+					<option value="fa fa-sellsy">sellsy</option>
+					<option value="fa fa-share-alt">share-alt</option>
+					<option value="fa fa-share-alt-square">share-alt-square</option>
+					<option value="fa fa-shirtsinbulk">shirtsinbulk</option>
+					<option value="fa fa-simplybuilt">simplybuilt</option>
+					<option value="fa fa-skyatlas">skyatlas</option>
+					<option value="fa fa-skype">skype</option>
+					<option value="fa fa-slack">slack</option>
+					<option value="fa fa-slideshare">slideshare</option>
+					<option value="fa fa-soundcloud">soundcloud</option>
+					<option value="fa fa-spotify">spotify</option>
+					<option value="fa fa-stack-exchange">stack-exchange</option>
+					<option value="fa fa-stack-overflow">stack-overflow</option>
+					<option value="fa fa-steam">steam</option>
+					<option value="fa fa-steam-square">steam-square</option>
+					<option value="fa fa-stumbleupon">stumbleupon</option>
+					<option value="fa fa-stumbleupon-circle">stumbleupon-circle</option>
+					<option value="fa fa-tencent-weibo">tencent-weibo</option>
+					<option value="fa fa-trello">trello</option>
+					<option value="fa fa-tripadvisor">tripadvisor</option>
+					<option value="fa fa-tumblr">tumblr</option>
+					<option value="fa fa-tumblr-square">tumblr-square</option>
+					<option value="fa fa-twitch">twitch</option>
+					<option value="fa fa-twitter">twitter</option>
+					<option value="fa fa-twitter-square">twitter-square</option>
+					<option value="fa fa-viacoin">viacoin</option>
+					<option value="fa fa-vimeo">vimeo</option>
+					<option value="fa fa-vimeo-square">vimeo-square</option>
+					<option value="fa fa-vine">vine</option>
+					<option value="fa fa-vk">vk</option>
+					<option value="fa fa-wechat">wechat <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-weibo">weibo</option>
+					<option value="fa fa-weixin">weixin</option>
+					<option value="fa fa-whatsapp">whatsapp</option>
+					<option value="fa fa-wikipedia-w">wikipedia-w</option>
+					<option value="fa fa-windows">windows</option>
+					<option value="fa fa-wordpress">wordpress</option>
+					<option value="fa fa-xing">xing</option>
+					<option value="fa fa-xing-square">xing-square</option>
+					<option value="fa fa-y-combinator">y-combinator</option>
+					<option value="fa fa-y-combinator-square">y-combinator-square <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yahoo">yahoo</option>
+					<option value="fa fa-yc">yc <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yc-square">yc-square <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yelp">yelp</option>
+					<option value="fa fa-youtube">youtube</option>
+					<option value="fa fa-youtube-play">youtube-play</option>
+					<option value="fa fa-youtube-square">youtube-square</option>
+	        	</select>
+	        	<br>
+	        	<label>Background color</label> (Hex)
+	        	<input type="text" class="form-control social-color" placeholder="#xxxxxx">
+	        	<label>Font color</label> (Hex)
+	        	<input type="text" class="form-control social-fontc" placeholder="#xxxxxx">
+	        </div>
+	        <div class="socialChange" social-target="#social-2">
+	        	<h4>Social 2</h4>
+	        	<input type="checkbox" class="social-use" checked> Use this? &nbsp;
+	        	<select class="social-icon">
+					<option value="fa fa-500px">500px</option>
+					<option value="fa fa-adn">adn</option>
+					<option value="fa fa-amazon">amazon</option>
+					<option value="fa fa-android">android</option>
+					<option value="fa fa-angellist">angellist</option>
+					<option value="fa fa-apple">apple</option>
+					<option value="fa fa-behance">behance</option>
+					<option value="fa fa-behance-square">behance-square</option>
+					<option value="fa fa-bitbucket">bitbucket</option>
+					<option value="fa fa-bitbucket-square">bitbucket-square</option>
+					<option value="fa fa-bitcoin">bitcoin <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-black-tie">black-tie</option>
+					<option value="fa fa-btc">btc</option>
+					<option value="fa fa-buysellads">buysellads</option>
+					<option value="fa fa-cc-amex">cc-amex</option>
+					<option value="fa fa-cc-diners-club">cc-diners-club</option>
+					<option value="fa fa-cc-discover">cc-discover</option>
+					<option value="fa fa-cc-jcb">cc-jcb</option>
+					<option value="fa fa-cc-mastercard">cc-mastercard</option>
+					<option value="fa fa-cc-paypal">cc-paypal</option>
+					<option value="fa fa-cc-stripe">cc-stripe</option>
+					<option value="fa fa-cc-visa">cc-visa</option>
+					<option value="fa fa-chrome">chrome</option>
+					<option value="fa fa-codepen">codepen</option>
+					<option value="fa fa-connectdevelop">connectdevelop</option>
+					<option value="fa fa-contao">contao</option>
+					<option value="fa fa-css3">css3</option>
+					<option value="fa fa-dashcube">dashcube</option>
+					<option value="fa fa-delicious">delicious</option>
+					<option value="fa fa-deviantart">deviantart</option>
+					<option value="fa fa-digg">digg</option>
+					<option value="fa fa-dribbble">dribbble</option>
+					<option value="fa fa-dropbox">dropbox</option>
+					<option value="fa fa-drupal">drupal</option>
+					<option value="fa fa-empire">empire</option>
+					<option value="fa fa-expeditedssl">expeditedssl</option>
+					<option value="fa fa-facebook">facebook</option>
+					<option value="fa fa-facebook-f">facebook-f <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-facebook-official">facebook-official</option>
+					<option value="fa fa-facebook-square">facebook-square</option>
+					<option value="fa fa-firefox">firefox</option>
+					<option value="fa fa-flickr">flickr</option>
+					<option value="fa fa-fonticons">fonticons</option>
+					<option value="fa fa-forumbee">forumbee</option>
+					<option value="fa fa-foursquare">foursquare</option>
+					<option value="fa fa-ge">ge <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-get-pocket">get-pocket</option>
+					<option value="fa fa-gg">gg</option>
+					<option value="fa fa-gg-circle">gg-circle</option>
+					<option value="fa fa-git">git</option>
+					<option value="fa fa-git-square">git-square</option>
+					<option value="fa fa-github">github</option>
+					<option value="fa fa-github-alt">github-alt</option>
+					<option value="fa fa-github-square">github-square</option>
+					<option value="fa fa-gittip">gittip <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-google">google</option>
+					<option value="fa fa-google-plus">google-plus</option>
+					<option value="fa fa-google-plus-square">google-plus-square</option>
+					<option value="fa fa-google-wallet">google-wallet</option>
+					<option value="fa fa-gratipay">gratipay</option>
+					<option value="fa fa-hacker-news">hacker-news</option>
+					<option value="fa fa-houzz">houzz</option>
+					<option value="fa fa-html5">html5</option>
+					<option value="fa fa-instagram">instagram</option>
+					<option value="fa fa-internet-explorer">internet-explorer</option>
+					<option value="fa fa-ioxhost">ioxhost</option>
+					<option value="fa fa-joomla">joomla</option>
+					<option value="fa fa-jsfiddle">jsfiddle</option>
+					<option value="fa fa-lastfm">lastfm</option>
+					<option value="fa fa-lastfm-square">lastfm-square</option>
+					<option value="fa fa-leanpub">leanpub</option>
+					<option value="fa fa-linkedin">linkedin</option>
+					<option value="fa fa-linkedin-square">linkedin-square</option>
+					<option value="fa fa-linux">linux</option>
+					<option value="fa fa-maxcdn">maxcdn</option>
+					<option value="fa fa-meanpath">meanpath</option>
+					<option value="fa fa-medium">medium</option>
+					<option value="fa fa-odnoklassniki">odnoklassniki</option>
+					<option value="fa fa-odnoklassniki-square">odnoklassniki-square</option>
+					<option value="fa fa-opencart">opencart</option>
+					<option value="fa fa-openid">openid</option>
+					<option value="fa fa-opera">opera</option>
+					<option value="fa fa-optin-monster">optin-monster</option>
+					<option value="fa fa-pagelines">pagelines</option>
+					<option value="fa fa-paypal">paypal</option>
+					<option value="fa fa-pied-piper">pied-piper</option>
+					<option value="fa fa-pied-piper-alt">pied-piper-alt</option>
+					<option value="fa fa-pinterest">pinterest</option>
+					<option value="fa fa-pinterest-p">pinterest-p</option>
+					<option value="fa fa-pinterest-square">pinterest-square</option>
+					<option value="fa fa-qq">qq</option>
+					<option value="fa fa-ra">ra <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-rebel">rebel</option>
+					<option value="fa fa-reddit">reddit</option>
+					<option value="fa fa-reddit-square">reddit-square</option>
+					<option value="fa fa-renren">renren</option>
+					<option value="fa fa-safari">safari</option>
+					<option value="fa fa-sellsy">sellsy</option>
+					<option value="fa fa-share-alt">share-alt</option>
+					<option value="fa fa-share-alt-square">share-alt-square</option>
+					<option value="fa fa-shirtsinbulk">shirtsinbulk</option>
+					<option value="fa fa-simplybuilt">simplybuilt</option>
+					<option value="fa fa-skyatlas">skyatlas</option>
+					<option value="fa fa-skype">skype</option>
+					<option value="fa fa-slack">slack</option>
+					<option value="fa fa-slideshare">slideshare</option>
+					<option value="fa fa-soundcloud">soundcloud</option>
+					<option value="fa fa-spotify">spotify</option>
+					<option value="fa fa-stack-exchange">stack-exchange</option>
+					<option value="fa fa-stack-overflow">stack-overflow</option>
+					<option value="fa fa-steam">steam</option>
+					<option value="fa fa-steam-square">steam-square</option>
+					<option value="fa fa-stumbleupon">stumbleupon</option>
+					<option value="fa fa-stumbleupon-circle">stumbleupon-circle</option>
+					<option value="fa fa-tencent-weibo">tencent-weibo</option>
+					<option value="fa fa-trello">trello</option>
+					<option value="fa fa-tripadvisor">tripadvisor</option>
+					<option value="fa fa-tumblr">tumblr</option>
+					<option value="fa fa-tumblr-square">tumblr-square</option>
+					<option value="fa fa-twitch">twitch</option>
+					<option value="fa fa-twitter">twitter</option>
+					<option value="fa fa-twitter-square">twitter-square</option>
+					<option value="fa fa-viacoin">viacoin</option>
+					<option value="fa fa-vimeo">vimeo</option>
+					<option value="fa fa-vimeo-square">vimeo-square</option>
+					<option value="fa fa-vine">vine</option>
+					<option value="fa fa-vk">vk</option>
+					<option value="fa fa-wechat">wechat <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-weibo">weibo</option>
+					<option value="fa fa-weixin">weixin</option>
+					<option value="fa fa-whatsapp">whatsapp</option>
+					<option value="fa fa-wikipedia-w">wikipedia-w</option>
+					<option value="fa fa-windows">windows</option>
+					<option value="fa fa-wordpress">wordpress</option>
+					<option value="fa fa-xing">xing</option>
+					<option value="fa fa-xing-square">xing-square</option>
+					<option value="fa fa-y-combinator">y-combinator</option>
+					<option value="fa fa-y-combinator-square">y-combinator-square <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yahoo">yahoo</option>
+					<option value="fa fa-yc">yc <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yc-square">yc-square <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yelp">yelp</option>
+					<option value="fa fa-youtube">youtube</option>
+					<option value="fa fa-youtube-play">youtube-play</option>
+					<option value="fa fa-youtube-square">youtube-square</option>
+	        	</select>
+	        	<br>
+	        	<label>Background color</label> (Hex)
+	        	<input type="text" class="form-control social-color" placeholder="#xxxxxx">
+	        	<label>Font color</label> (Hex)
+	        	<input type="text" class="form-control social-fontc" placeholder="#xxxxxx">
+	        </div>
+	        <div class="socialChange" social-target="#social-3">
+	        	<h4>Social 3</h4>
+	        	<input type="checkbox" class="social-use" checked> Use this? &nbsp;
+	        	<select class="social-icon">
+					<option value="fa fa-500px">500px</option>
+					<option value="fa fa-adn">adn</option>
+					<option value="fa fa-amazon">amazon</option>
+					<option value="fa fa-android">android</option>
+					<option value="fa fa-angellist">angellist</option>
+					<option value="fa fa-apple">apple</option>
+					<option value="fa fa-behance">behance</option>
+					<option value="fa fa-behance-square">behance-square</option>
+					<option value="fa fa-bitbucket">bitbucket</option>
+					<option value="fa fa-bitbucket-square">bitbucket-square</option>
+					<option value="fa fa-bitcoin">bitcoin <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-black-tie">black-tie</option>
+					<option value="fa fa-btc">btc</option>
+					<option value="fa fa-buysellads">buysellads</option>
+					<option value="fa fa-cc-amex">cc-amex</option>
+					<option value="fa fa-cc-diners-club">cc-diners-club</option>
+					<option value="fa fa-cc-discover">cc-discover</option>
+					<option value="fa fa-cc-jcb">cc-jcb</option>
+					<option value="fa fa-cc-mastercard">cc-mastercard</option>
+					<option value="fa fa-cc-paypal">cc-paypal</option>
+					<option value="fa fa-cc-stripe">cc-stripe</option>
+					<option value="fa fa-cc-visa">cc-visa</option>
+					<option value="fa fa-chrome">chrome</option>
+					<option value="fa fa-codepen">codepen</option>
+					<option value="fa fa-connectdevelop">connectdevelop</option>
+					<option value="fa fa-contao">contao</option>
+					<option value="fa fa-css3">css3</option>
+					<option value="fa fa-dashcube">dashcube</option>
+					<option value="fa fa-delicious">delicious</option>
+					<option value="fa fa-deviantart">deviantart</option>
+					<option value="fa fa-digg">digg</option>
+					<option value="fa fa-dribbble">dribbble</option>
+					<option value="fa fa-dropbox">dropbox</option>
+					<option value="fa fa-drupal">drupal</option>
+					<option value="fa fa-empire">empire</option>
+					<option value="fa fa-expeditedssl">expeditedssl</option>
+					<option value="fa fa-facebook">facebook</option>
+					<option value="fa fa-facebook-f">facebook-f <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-facebook-official">facebook-official</option>
+					<option value="fa fa-facebook-square">facebook-square</option>
+					<option value="fa fa-firefox">firefox</option>
+					<option value="fa fa-flickr">flickr</option>
+					<option value="fa fa-fonticons">fonticons</option>
+					<option value="fa fa-forumbee">forumbee</option>
+					<option value="fa fa-foursquare">foursquare</option>
+					<option value="fa fa-ge">ge <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-get-pocket">get-pocket</option>
+					<option value="fa fa-gg">gg</option>
+					<option value="fa fa-gg-circle">gg-circle</option>
+					<option value="fa fa-git">git</option>
+					<option value="fa fa-git-square">git-square</option>
+					<option value="fa fa-github">github</option>
+					<option value="fa fa-github-alt">github-alt</option>
+					<option value="fa fa-github-square">github-square</option>
+					<option value="fa fa-gittip">gittip <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-google">google</option>
+					<option value="fa fa-google-plus">google-plus</option>
+					<option value="fa fa-google-plus-square">google-plus-square</option>
+					<option value="fa fa-google-wallet">google-wallet</option>
+					<option value="fa fa-gratipay">gratipay</option>
+					<option value="fa fa-hacker-news">hacker-news</option>
+					<option value="fa fa-houzz">houzz</option>
+					<option value="fa fa-html5">html5</option>
+					<option value="fa fa-instagram">instagram</option>
+					<option value="fa fa-internet-explorer">internet-explorer</option>
+					<option value="fa fa-ioxhost">ioxhost</option>
+					<option value="fa fa-joomla">joomla</option>
+					<option value="fa fa-jsfiddle">jsfiddle</option>
+					<option value="fa fa-lastfm">lastfm</option>
+					<option value="fa fa-lastfm-square">lastfm-square</option>
+					<option value="fa fa-leanpub">leanpub</option>
+					<option value="fa fa-linkedin">linkedin</option>
+					<option value="fa fa-linkedin-square">linkedin-square</option>
+					<option value="fa fa-linux">linux</option>
+					<option value="fa fa-maxcdn">maxcdn</option>
+					<option value="fa fa-meanpath">meanpath</option>
+					<option value="fa fa-medium">medium</option>
+					<option value="fa fa-odnoklassniki">odnoklassniki</option>
+					<option value="fa fa-odnoklassniki-square">odnoklassniki-square</option>
+					<option value="fa fa-opencart">opencart</option>
+					<option value="fa fa-openid">openid</option>
+					<option value="fa fa-opera">opera</option>
+					<option value="fa fa-optin-monster">optin-monster</option>
+					<option value="fa fa-pagelines">pagelines</option>
+					<option value="fa fa-paypal">paypal</option>
+					<option value="fa fa-pied-piper">pied-piper</option>
+					<option value="fa fa-pied-piper-alt">pied-piper-alt</option>
+					<option value="fa fa-pinterest">pinterest</option>
+					<option value="fa fa-pinterest-p">pinterest-p</option>
+					<option value="fa fa-pinterest-square">pinterest-square</option>
+					<option value="fa fa-qq">qq</option>
+					<option value="fa fa-ra">ra <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-rebel">rebel</option>
+					<option value="fa fa-reddit">reddit</option>
+					<option value="fa fa-reddit-square">reddit-square</option>
+					<option value="fa fa-renren">renren</option>
+					<option value="fa fa-safari">safari</option>
+					<option value="fa fa-sellsy">sellsy</option>
+					<option value="fa fa-share-alt">share-alt</option>
+					<option value="fa fa-share-alt-square">share-alt-square</option>
+					<option value="fa fa-shirtsinbulk">shirtsinbulk</option>
+					<option value="fa fa-simplybuilt">simplybuilt</option>
+					<option value="fa fa-skyatlas">skyatlas</option>
+					<option value="fa fa-skype">skype</option>
+					<option value="fa fa-slack">slack</option>
+					<option value="fa fa-slideshare">slideshare</option>
+					<option value="fa fa-soundcloud">soundcloud</option>
+					<option value="fa fa-spotify">spotify</option>
+					<option value="fa fa-stack-exchange">stack-exchange</option>
+					<option value="fa fa-stack-overflow">stack-overflow</option>
+					<option value="fa fa-steam">steam</option>
+					<option value="fa fa-steam-square">steam-square</option>
+					<option value="fa fa-stumbleupon">stumbleupon</option>
+					<option value="fa fa-stumbleupon-circle">stumbleupon-circle</option>
+					<option value="fa fa-tencent-weibo">tencent-weibo</option>
+					<option value="fa fa-trello">trello</option>
+					<option value="fa fa-tripadvisor">tripadvisor</option>
+					<option value="fa fa-tumblr">tumblr</option>
+					<option value="fa fa-tumblr-square">tumblr-square</option>
+					<option value="fa fa-twitch">twitch</option>
+					<option value="fa fa-twitter">twitter</option>
+					<option value="fa fa-twitter-square">twitter-square</option>
+					<option value="fa fa-viacoin">viacoin</option>
+					<option value="fa fa-vimeo">vimeo</option>
+					<option value="fa fa-vimeo-square">vimeo-square</option>
+					<option value="fa fa-vine">vine</option>
+					<option value="fa fa-vk">vk</option>
+					<option value="fa fa-wechat">wechat <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-weibo">weibo</option>
+					<option value="fa fa-weixin">weixin</option>
+					<option value="fa fa-whatsapp">whatsapp</option>
+					<option value="fa fa-wikipedia-w">wikipedia-w</option>
+					<option value="fa fa-windows">windows</option>
+					<option value="fa fa-wordpress">wordpress</option>
+					<option value="fa fa-xing">xing</option>
+					<option value="fa fa-xing-square">xing-square</option>
+					<option value="fa fa-y-combinator">y-combinator</option>
+					<option value="fa fa-y-combinator-square">y-combinator-square <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yahoo">yahoo</option>
+					<option value="fa fa-yc">yc <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yc-square">yc-square <span class="text-muted">(alias)</span></option>
+					<option value="fa fa-yelp">yelp</option>
+					<option value="fa fa-youtube">youtube</option>
+					<option value="fa fa-youtube-play">youtube-play</option>
+					<option value="fa fa-youtube-square">youtube-square</option>
+	        	</select>
+	        	<br>
+	        	<label>Background color</label> (Hex)
+	        	<input type="text" class="form-control social-color" placeholder="#xxxxxx">
+	        	<label>Font color</label> (Hex)
+	        	<input type="text" class="form-control social-fontc" placeholder="#xxxxxx">
+	        </div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div class="modal fade" id="renderedModal">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Rendered Image</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img  class="" id="rendered">
+	        <p class="text-muted">Just right click on it and "Save as".</p>
+	        <p class="text-warning">Your image is not hosted here. Don't try to hotlink it.</p>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<script type="text/javascript" src="js/app.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61736723-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
